@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Kingfisher (7.4.0)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - SwiftyJSON (5.0.1)
+  - Toast-Swift (5.0.1)
+  - YouTubePlayer (0.7.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - SwiftMessages
+  - SwiftyJSON
+  - Toast-Swift
+  - YouTubePlayer
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - SwiftMessages
+    - SwiftyJSON
+    - Toast-Swift
+    - YouTubePlayer
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Kingfisher: 596b207973051aae5e4c54a1c1cb39837ea10d36
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  YouTubePlayer: 2b5f2830d8f9b2cde942083211291e382c9e6bd5
+
+PODFILE CHECKSUM: cfcf1f1741b5425f7c5def247aaabcaee8895620
+
+COCOAPODS: 1.11.3

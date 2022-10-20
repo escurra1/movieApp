@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PopularCollectionViewCell" id="gTV-IL-0wX" customClass="PopularCollectionViewCell" customModule="MovieTestingApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="202" height="204"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="202" height="204"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="czo-Y5-Noh">
+                        <rect key="frame" x="0.0" y="0.0" width="202" height="204"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VSF-rh-9cu" userLabel="ViewWidgest">
+                                <rect key="frame" x="0.0" y="0.0" width="202" height="204"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k3Y-LG-kKc">
+                                        <rect key="frame" x="42.666666666666657" y="0.0" width="117" height="204"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="117" id="4FM-Ev-Efe"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="k3Y-LG-kKc" secondAttribute="bottom" id="Leh-Wy-45h"/>
+                                    <constraint firstItem="k3Y-LG-kKc" firstAttribute="top" secondItem="VSF-rh-9cu" secondAttribute="top" id="VBm-i4-dzn"/>
+                                    <constraint firstItem="k3Y-LG-kKc" firstAttribute="centerX" secondItem="VSF-rh-9cu" secondAttribute="centerX" id="Ywb-So-dlm"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VSF-rh-9cu" firstAttribute="top" secondItem="czo-Y5-Noh" secondAttribute="top" id="Dct-jF-qdx"/>
+                            <constraint firstItem="VSF-rh-9cu" firstAttribute="leading" secondItem="czo-Y5-Noh" secondAttribute="leading" id="EcB-he-S4L"/>
+                            <constraint firstAttribute="bottom" secondItem="VSF-rh-9cu" secondAttribute="bottom" id="Pwp-fz-H8Z"/>
+                            <constraint firstAttribute="trailing" secondItem="VSF-rh-9cu" secondAttribute="trailing" id="dsL-Cf-HvQ"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="czo-Y5-Noh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="CwH-5K-qYc"/>
+                <constraint firstAttribute="trailing" secondItem="czo-Y5-Noh" secondAttribute="trailing" id="h97-hU-WFI"/>
+                <constraint firstAttribute="bottom" secondItem="czo-Y5-Noh" secondAttribute="bottom" id="kJW-Qi-PGw"/>
+                <constraint firstItem="czo-Y5-Noh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="t4X-2T-hvJ"/>
+            </constraints>
+            <connections>
+                <outlet property="popularImageView" destination="k3Y-LG-kKc" id="8ry-J5-LM7"/>
+            </connections>
+            <point key="canvasLocation" x="-34" y="21"/>
+        </collectionViewCell>
+    </objects>
+</document>

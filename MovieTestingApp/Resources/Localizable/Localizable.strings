@@ -1,0 +1,16 @@
+/* 
+ Localizable.strings
+ MovieTestingApp
+ 
+ Created by Escurra Colquis on 18/10/22.
+ 
+ */
+
+"errorService" = "Error de servicio";
+"loadData" = "Cargando";
+"pleaseWait" = "espere por favor...";
+"popularies" = "Populares";
+"releases" = "Lanzamientos";
+"trailerNotFound" = "Trailer no encontrado";
+"verificatedInternet" = "Verifica tu internet";
+"error" = "Error";
