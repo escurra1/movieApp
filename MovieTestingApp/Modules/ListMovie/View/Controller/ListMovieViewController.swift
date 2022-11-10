@@ -283,5 +283,4 @@ extension ListMovieViewController: ListMovieViewProtocol {
     func hideProgressView() {
         MBProgressHUD.hide(for: self.view, animated: true)
     }
-    
 }
